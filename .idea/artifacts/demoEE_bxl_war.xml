@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demoEE_bxl:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demoEE_bxl</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demo-ee-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demoEE_bxl:war exploded" />
+    </root>
+  </artifact>
+</component>
